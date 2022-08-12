@@ -682,6 +682,10 @@ p {
 	font-size: 16px;
 }
 
+q {
+	font-size: 16px;
+}
+
 .tight-width-whitespace {
 	max-width: 600px;
 	margin: auto auto auto auto;
@@ -712,7 +716,7 @@ h2 {
 }
 
 h3 {
-	font-size: 15px;
+	font-size: 18px;
 	text-transform: uppercase;
 	font-weight: 700;
 	color: #333333 !important;
@@ -828,6 +832,16 @@ h4 {
 .bg-presentation {
 	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
 		url("img/image-de-presentation.webp");
+}
+
+.img-responsive {
+	width: 100%;
+}
+
+.quote q {
+	font-weight: 700;
+	color: #333333;
+	quotes: '"' '"';
 }
 
 @media (max-width: 1024px) {
